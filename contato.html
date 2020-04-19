@@ -47,19 +47,19 @@
 
                     <div class="card-container">
 
-                        <form action="/action_page.php">
+                        <form action="email.php" method="POST">
 
                             <label >Nome:</label>
-                            <input type="text" placeholder="Digite seu nome..">
+                            <input type="text" name="nome" placeholder="Digite seu nome..">
                         
                             <label >Email:</label>
-                            <input type="text" placeholder="Digite seu email..">
+                            <input type="text" name="email" placeholder="Digite seu email..">
                         
                             <label >Mensagem:</label>
                             <textarea   placeholder="Digite sua mensagem.." 
-                                        style="height:100px;"></textarea>
+                                        style="height:100px;" name="mensagem"></textarea>
                           
-                            <input type="submit" value="Enviar">
+                            <input type="submit" value="Enviar" name="BTEnvia">
 
                         </form>
                         
