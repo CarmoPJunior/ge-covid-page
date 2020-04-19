@@ -1,0 +1,161 @@
+* {
+    margin:         0;
+    padding:        0;
+    outline:        0;
+    box-sizing:     border-box;
+}
+
+body {
+    font:           400 14px Roboto, sans-serif;
+    background:     #f0f0f5;
+}
+
+/* Style header */
+header {
+    display: flex;
+    flex-direction: row;
+    background-color: #563d7c;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,.05), inset 0 -1px 0 rgba(0,0,0,.1);
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    /* flex-direction: row; */
+    background: transparent;
+    padding: 10px;
+    width: 100%;
+    height: 40px;
+}
+
+nav > a{
+    display: inline-block;
+}
+nav div  {
+    padding-left: 20px;
+    display: grid;    
+    align-content: center;
+}
+
+nav div ul {    
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+nav div ul > li .nav-link {   
+    padding-right: .7rem;
+    padding-left: .7rem; 
+    color: #cbbde2;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav div ul > li .nav-link.active {
+    font-weight: 600;
+}
+
+nav div ul > li .nav-link.active, 
+nav div ul > li .nav-link:hover {
+    color: #fff;
+}
+
+
+/* Container for flexboxes */
+
+section {
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    background-color: #f1f1f1;
+    padding: 40px;
+}
+
+.noticias {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-evenly;
+    grid-gap: 50px;
+    padding: 10px;    
+}
+
+/* card */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #fff;
+}
+  
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card img{
+    height: 150px;
+    box-shadow: 0 1px 0px 0 rgba(0,0,0,0.2);
+}
+  
+img {
+    border-radius: 5px 5px 0 0;        
+}
+  
+.card-container {
+    padding: 10px 16px;
+}
+
+.card .card-container h4{
+    margin-top: 5px;
+    text-align: justify;
+}
+
+.card .card-container p{
+    margin-top: 5px;
+    text-align: justify;
+}
+
+.card-link{
+    margin-top: 5px;    
+    text-decoration: none;
+}
+
+.card-link a{   
+    text-decoration: none;
+    color: #007bff;
+}
+
+/* Style the content */
+
+
+/* Style the footer */
+footer {
+    background-color:#f8f9fa;
+    padding: 20px 20px 50px;
+    text-align: center;    
+
+}
+
+.midias-socias{
+    display: flex;
+    justify-content: center;
+    padding: 10px ;
+}
+
+.midias-socias > div {    
+    margin: 10px;
+    text-align: center;    
+  }
+
+.midias-socias > div a{
+    font-weight: 600;
+    color: #495057;
+    text-decoration: none;
+}
+  
+.text-autor{
+    color: #6c757d;
+}
