@@ -23,12 +23,8 @@ Criar as páginas:
 
 
 
-https://king.host/blog/2018/06/tutorial-como-enviar-email-php-formmail/
-
-
-https://www.linkedin.com/in/carmo-goncalves-pereira-júnior-703b881a4/
-carmo.goncalves.jr@hotmail.com
-https://github.com/CarmoPJunior
+--------------------------------------------------------------------------------------------------------------------
+Notícias 
 
 Título: 
     Itália registra recorde de curados da covid-19 em um dia
